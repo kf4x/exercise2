@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/oncreateCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onCreate() was called: 0 times" />
+    <TextView
+        android:id="@+id/onstartCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onStart() was called: 0 times" />
+    <TextView
+        android:id="@+id/onrestartCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onRestart() was called: 0 times" />
+    <TextView
+        android:id="@+id/onresumeCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onResume() was called: 0 times" />
+    <TextView
+        android:id="@+id/onPauseCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onPause() was called: 0 times" />
+    <TextView
+        android:id="@+id/onstopCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onStop() was called: 0 times" />
+    <TextView
+        android:id="@+id/ondestroyCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You've closed this program 0 times." />
+</LinearLayout>
